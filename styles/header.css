@@ -1,0 +1,32 @@
+header {
+    background-image: url(/assets/images/Background_Intro.png);
+    background-size: contain;
+}
+
+.avatar {
+    object-fit: cover;
+}
+
+.subtitle {
+    font: var(--subtitle);
+    color: var(--gray-500);
+    .red {color: var(--red);}
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
+
+.box {
+    background-color: var(--gray-300);
+    width: 119px;
+    height: 40px;
+    border-radius: 56px;
+    margin-bottom: 10px;
+}
