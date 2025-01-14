@@ -1,0 +1,9 @@
+section {
+  background-color: #16181D;
+  background-size: cover;
+  height: 480px;
+  padding: 88px 120px 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,1fr);
+}
