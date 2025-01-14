@@ -1,7 +1,6 @@
 header {
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
-    max-width: 1366px;
     height: 750px;
     display: flex;
     align-items: center;

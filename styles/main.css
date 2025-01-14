@@ -1,6 +1,6 @@
 main {
   background-color: #16181D;
-  max-width: 1366px;
+  background-size: cover;
   height: 917px;
   display: flex;
   flex-direction: column;
@@ -9,11 +9,6 @@ main {
   gap: 56px;
   p {
     display: block;
-  }
-
-  .img {
-    width: 330px;
-    height: 280px;
   }
 }
 
@@ -30,21 +25,31 @@ main {
   max-width: 1040px;
   height: 584px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(2, 280px);
   gap: 24px 24px;
 }
 
 .projects {
-  width: 330px;
-  height: 280px;
+  display: grid;
+  grid-template-columns: 306px;
+  grid-template-rows: 156px 75px;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 12px 112px;
+  border-radius: 12px;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 306px;
+  grid-template-rows: 19px 40px;
+  gap: 8px;
 }
 
 .img {
-  width: 306px;
-  height: 156px;
-  
   img {
+    border-radius: 8px;
     object-fit: cover;
     width: 306px;
     height: 156px;
