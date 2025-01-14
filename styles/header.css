@@ -6,7 +6,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    .box {
+        border-radius: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 16px 8px;
     }
+}
 
 .info {
     width: 1040px;
@@ -66,6 +75,8 @@ h1 {
     height: 40px;
     column-gap: 16px;
 }
+
+
 
 .box1 {
     width: 114px;

@@ -1,0 +1,53 @@
+main {
+  background-color: #16181D;
+  max-width: 1366px;
+  height: 917px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 120px 144px;
+  gap: 56px;
+  p {
+    display: block;
+  }
+
+  .img {
+    width: 330px;
+    height: 280px;
+  }
+}
+
+#header-main {
+  gap: 8px;
+  display: flex;
+  max-width: 1040px;
+  height: 61px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-header {
+  max-width: 1040px;
+  height: 584px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px 24px;
+}
+
+.projects {
+  width: 330px;
+  height: 280px;
+}
+
+.img {
+  width: 306px;
+  height: 156px;
+  
+  img {
+    object-fit: cover;
+    width: 306px;
+    height: 156px;
+  }
+}
+
