@@ -41,7 +41,7 @@ footer {
     p{
     width: 288px;
     margin-top: 3px;
-}
+    }
 }
 
 .link-footer {
@@ -50,5 +50,50 @@ footer {
     display: flex;
     padding: 20px 20px;
     gap: 12px;
+    .linkedin {
+        background-image: url(/assets/LinkedinLogo.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .instagram {
+        background-image: url(/assets/InstagramLogo.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .github {
+        background-image: url(/assets/GithubLogo.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .email {
+        background-image: url(/assets/EnvelopeSimple.svg);
+        width: 28px;
+        height: 28px;
+    }
 }
 
+.link-footer:hover {
+    border-style: solid;
+    border-color: var(--blue);
+    border-width: 1px;
+    .linkedin {
+        background-image: url(/assets/LinkedinLogoBlue.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .instagram {
+        background-image: url(/assets/InstagramLogoBlue.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .github {
+        background-image: url(/assets/GithubLogoBlue.svg);
+        width: 28px;
+        height: 28px;
+    }
+    .email {
+        background-image: url(/assets/EnvelopeSimpleBlue.svg);
+        width: 28px;
+        height: 28px;
+    }
+}

@@ -40,6 +40,12 @@ main {
   border-radius: 12px;
 }
 
+.projects:hover {
+  border-style: solid;
+  border-color: var(--gray-400);
+  border-width: 1px;
+}
+
 .description {
   display: grid;
   grid-template-columns: 306px;
