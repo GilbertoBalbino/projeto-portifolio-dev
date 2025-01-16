@@ -23,6 +23,7 @@
     --title-md: 700 24px/120% var(--asap);
     --title-sm: 700 16px/120% var(--asap);
     --subtitle: 400 20px/120% var(--inconsolata);
+    --text-lg: 500 16px/140% var(--maven-pro);
     --text-md: 400 16px/140% var(--maven-pro);
     --text-sm: 400 14px/140% var(--maven-pro);
 }

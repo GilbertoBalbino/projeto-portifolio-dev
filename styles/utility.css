@@ -22,9 +22,9 @@
   color: var(--gray-500);
 }
 
-.text-sm {
-  font: var(--text-sm);
-  color: var(--gray-400);
+.text-lg {
+  font: var(--text-lg);
+  color: var(--gray-500);
 }
 
 .text-md {
@@ -32,6 +32,19 @@
   color: var(--gray-500);
 }
 
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
 .red {
   color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.border-radius {
+  border-radius: 8px;
 }
